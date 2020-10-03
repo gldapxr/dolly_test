@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages.publish('dist', {add: true}, callback); -d dist"
+    "deploy": "gh-pages('dist', {add: true}, callback); -d dist"
   },
   "author": "",
   "license": "ISC",
